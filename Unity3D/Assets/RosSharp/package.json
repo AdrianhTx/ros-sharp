@@ -1,0 +1,19 @@
+{
+  "name": "com.siemens.ros-sharp",
+  "version": "1.7.0",
+  "displayName": "ROS# 1.7.0 (UPM Fork)",
+  "description": "Unity Package Manager compatible fork of ROS# 1.7.0 by Siemens.",
+  "unity": "2019.4",
+  "keywords": [
+    "ros"
+  ],
+  "author": {
+    "name": "TX",
+    "url": "https://github.com/AdrianhTx/ros-sharp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianhTx/ros-sharp.git"
+  },
+  "dependencies": {}
+}
