@@ -1,6 +1,18 @@
-# [<img src="https://github.com/siemens/ros-sharp/wiki/img/Home_RosSharpLogo.png" width="480" alt ="ROS#"/>](https://github.com/siemens/ros-sharp) #
+# Version 1.7.1 Unity Package Manager Support Fork #
 
-[ROS#](https://github.com/siemens/ros-sharp) is a set of open source software libraries and tools in [C\# ](https://docs.microsoft.com/de-de/dotnet/csharp/csharp) for communicating with [ROS](http://www.ros.org/) from .[NET](https://www.microsoft.com/net) applications, in particular [Unity](https://unity3d.com/).
+This is a fork of the [original ROS# repository by Siemens](https://github.com/siemens/ros-sharp) that adds Unity Package Manager support to the original v1.7.1 release.
+
+## Installation via Unity Package Manager ##
+
+You can add this package to a Unity project by using the Package Manager's "Add package from git URL" option with the following URL:
+
+```https://github.com/telexistence-inc/ros-sharp.git?path=/com.siemens.ros-sharp#1.7.1-upm```
+
+## ##
+
+## [<img src="https://github.com/siemens/ros-sharp/wiki/img/Home_RosSharpLogo.png" width="480" alt ="ROS#"/>](https://github.com/siemens/ros-sharp) ##
+
+[ROS#](https://github.com/siemens/ros-sharp) is a set of open source software libraries and tools in [C\#](https://docs.microsoft.com/de-de/dotnet/csharp/csharp) for communicating with [ROS](http://www.ros.org/) from .[NET](https://www.microsoft.com/net) applications, in particular [Unity](https://unity3d.com/).
 
 [Here](https://github.com/siemens/ros-sharp/wiki/Info_Showcases) are some showcases illustrating what can be done with ROS#.
 Community provided a variety of other application examples for ROS# [here](https://github.com/siemens/ros-sharp/issues/20). Please don't hesitate to post yours!
@@ -33,7 +45,9 @@ The latest release is also being published in the [Unity Asset Store](https://as
 Please get the latest development version directly from the [tip of this master branch](https://github.com/siemens/ros-sharp).
 
 ## Unity Robotics Hub ##
+
 In 11/2020 Unity launched [Unity Robotics Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub) and included a major part of ROS#.
+
 * [Short Description](https://github.com/siemens/ros-sharp/wiki/Ext_UnityRoboticsHub) on Unity Robotics Hub written by Unity developers
 * [Differences](https://github.com/siemens/ros-sharp/wiki/Ext_RosSharp_RoboticsHub) between ROS# and Unity Robotics Hub
 
@@ -46,6 +60,7 @@ ROS# is open source under the [Apache 2.0 license](http://www.apache.org/license
 ## External Dependencies ##
 
 [RosBridgeClient](https://github.com/siemens/ros-sharp/tree/master/Libraries/RosBridgeClient) requires:
+
 * [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) (MIT License)
 * [Newtonsoft.Json.Bson](https://github.com/JamesNK/Newtonsoft.Json.Bson) (MIT License)
 * [websocket-sharp](https://github.com/sta/websocket-sharp) (MIT License), required only when using [WebSocketSharpProtocol](https://github.com/siemens/ros-sharp/tree/master/Libraries/RosBridgeClient/Protocols/WebSocketSharpProtocol.cs)
@@ -71,4 +86,4 @@ In Versions below 2019.3, make sure to set the scripting runtime version to `.NE
 
 © Siemens AG, 2017-2021
 
-Author: Dr. Martin Bischoff (martin.bischoff@siemens.com)
+Author: Dr. Martin Bischoff (<martin.bischoff@siemens.com>)
